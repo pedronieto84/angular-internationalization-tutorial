@@ -11,10 +11,7 @@ export class SwitchLangComponent  {
   constructor(public translate: TranslateService) { }
 
   switchLang = (lang: string) => {
-    console.log(lang)
     this.translate.use(lang)
-    // No me esta devolviendo lo que yo esperaba
-    console.log(this.translate.currentLang)
   }
 
   
