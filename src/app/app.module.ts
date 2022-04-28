@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { SwitchLangComponent } from './components/switch-lang/switch-lang.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SwitchLangComponent
   ],
   imports: [
     BrowserModule,
